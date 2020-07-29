@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="assets/css/grids.css" />
+		<link rel="stylesheet" href="assets/css/styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Css-Js-variables</title>
+	</head>
+	<body>
+		<div class="content">
+			<div class="div1 text">
+				<p class="author">Samuel <span class="color-letter">N.</span></p>
+				<p class="title">
+					Update Css Variables with <span class="color-letter">JS</span>
+				</p>
+			</div>
+
+			<div class="div2 img">
+				<img id="imagen" src="assets/img/photo.jpg" alt="hello" />
+			</div>
+			<div class="div3 drivers">
+				<section class="settings">
+					<label> Border radius </label>
+					<input
+						id="borderR"
+						type="range"
+						name="radio"
+						data-sizing="px"
+						value="0"
+					/>
+				</section>
+				<section class="settings">
+					<label> Border</label>
+					<input value="6" type="range" name="border" data-sizing="px" id="border" />
+				</section>
+				<section class="settings">
+					<label> Color</label>
+					<input type="color" name="color" id="color" value="#ff7890" />
+				</section>
+			</div>
+		</div>
+		<script src="assets/js/index.js"></script>
+	</body>
+</html>
